@@ -1,0 +1,155 @@
+html {
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.topo {
+    height: 400px;
+    background-image: url(img/background.png);
+    background-position: 60%;
+    display: flex;
+}
+
+.logo {
+    text-align: right;
+    margin-top: 2%;
+    margin-right: 2%;
+    width: 150%;
+}
+
+.titulo {
+    color: #bb4c56;
+    margin-left: 2%;
+    font-size: 100%;
+    text-align: left;
+    position: absolute;
+}
+
+
+.menu {
+    list-style: none;
+    margin-top: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.menu .lista li {
+    display: inline-block;
+    margin-top: 20px;
+
+}
+
+.menu ul li a {
+    font-size: 25px;
+    text-decoration: none;
+    color: #bb4c56;
+    flex-basis: 2;
+    margin-right: 50px;
+
+}
+
+.menu ul li a:hover {
+    background-color: #b41a1a;
+    color: white;
+    padding: 2px
+}
+
+
+.descricao {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.descricao .fale {
+    color: #bb4c56;
+    text-align: left;
+    margin-top: 1%;
+    margin-left: 12%;
+}
+
+.descricao .contato {
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 30%;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.cont {
+    width: 100px;
+}
+
+.descricao .contato .telefone {
+    margin-right: 3%;
+}
+
+.descricao .contato .whatsapp {
+    margin-right: 2%;
+}
+
+.descricao .contato .messenger {
+    margin-right: 2%;
+}
+
+.descricao .contato .facebook {
+    margin-right: 2%;
+}
+
+.descricao .info {
+    font-size: 20px;
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 40%;
+}
+
+.descricao .mapa {
+    display: flex;
+    justify-content: center;
+    margin-right: 0%;
+    margin-top: 2%;
+}
+
+
+.bot {
+    background-color: black;
+    height: 200px;
+    margin-top: 2%;
+}
+
+.bot .tel {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    float: left;
+    width: 30%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.bot .tel h2 {
+    color: white;
+}
+
+.bot .tel a {
+    text-decoration: none;
+}
+
+.bot .imagem {
+    float: right;
+    width: 20%;
+    margin-left: 10%;
+    margin-top: 7%;
+}

@@ -1,0 +1,100 @@
+@media (min-width:700px) and (max-width:1020px) {
+
+    .topo {
+        background-image: none;
+        height: 100px;
+    }
+
+    .topo .titulo {
+        margin-top: 170px;
+        margin-left: 6%;
+        text-align: center;
+    }
+
+    #logoTopo {
+        width: 40%;
+        margin-right: 30%;
+    }
+
+    .menu {
+        margin-top: 20%;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .menu ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column;
+
+    }
+
+    .menu ul li a {
+        font-size: 25px;
+        line-height: 20px;
+    }
+
+    .descricao {
+        height: 900px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .descricao .fale {
+        margin-left: 20%;
+        margin-bottom: -85px;
+        font-size: 25px;
+    }
+
+    .descricao .contato {
+        width: 60%;
+        margin-left: 10%;
+    }
+
+    .contato .icone .cont {
+        width: 70px;
+    }
+
+    .descricao .contato .icone {
+        margin-left: 9%;
+        margin-top: 10%;
+        margin-bottom: -50px;
+    }
+
+    .descricao .info {
+        margin-left: 15%;
+        height: 70%;
+        width: 80%;
+        line-height: 35px;
+        font-size: 25px;
+    }
+
+    .descricao .mapa {
+        margin-left: 13%;
+        margin-top: -420px;
+    }
+
+    .bot {
+        height: 380px;
+    }
+
+    .bot .tel {
+        text-align: center;
+        width: 70%;
+        font-size: 30px;
+    }
+
+    .bot .tel h2 {
+        color: white;
+    }
+
+    .bot .tel a {
+        text-decoration: none;
+    }
+
+    .bot .imagem {
+        width: 550px;
+        text-align: left;
+    }
+}

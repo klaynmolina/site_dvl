@@ -1,0 +1,119 @@
+@media (max-width: 700px) {
+    .topo {
+        background-image: none;
+        height: 100px;
+    }
+
+    #logoTopo {
+        width: 40%;
+        margin: 5%;
+        margin-left: 38%;
+    }
+
+    .menu {
+        margin-top: 20%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: -90px;
+        text-align: center;
+        margin-left: 18%;
+    }
+    
+    .menu ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column;
+        
+    }
+    
+    .menu ul li a {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .descricao {
+        height: 900px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .descricao .fale {
+        margin-top: 20%;
+        margin-bottom: -10%;
+        margin-left: 25%;
+    }
+
+    .descricao .contato {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+        height: 15%;
+        margin-bottom: 1%;
+        margin-left: 20%;
+    }
+
+    .contato .icone .cont {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 40px;
+        margin-top: 25%;
+    }
+
+    #face {
+        margin-top: 80%;
+    }
+
+    #msgr {
+        margin-top: 80%;
+    }
+
+    .descricao .contato .icone {
+        margin-left: 6%;
+        margin-top: 10%;
+    }
+
+    .descricao .info {
+        margin-left: 20%;
+        margin-bottom: 5%;
+        height: 70%;
+        width: 80%;
+    }
+
+    .descricao .mapa {
+        margin-left: 12%;
+        margin-top: -130%;
+    }
+
+    #mp {
+        width: 400px;
+        height: 400px;
+    }
+
+    .bot {
+        height: 300px;
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bot .tel {
+        text-align: center;
+        width: 80%;
+    }
+
+    .bot .tel h2 {
+        color: white;
+    }
+
+    .bot .tel a {
+        text-decoration: none;
+    }
+
+    .bot .imagem {
+        margin-left: 40%;
+        width: 200px;
+    }
+}

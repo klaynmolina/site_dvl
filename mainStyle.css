@@ -1,0 +1,212 @@
+html {
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    max-width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.topo {
+    height: 400px;
+    background-image: url(img/background.png);
+    background-position: 60%;
+    display: flex;
+}
+
+.logo {
+    text-align: right;
+    margin-top: 2%;
+    margin-right: 2%;
+    width: 150%;
+}
+
+.titulo {
+    color: #bb4c56;
+    margin-left: 2%;
+    font-size: 100%;
+    text-align: left;
+    position: absolute;
+}
+
+.menu {
+    list-style: none;
+    margin-top: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.menu .lista li {
+    display: inline-block;
+    margin-top: 20px;
+
+}
+
+.menu ul li a {
+    font-size: 25px;
+    text-decoration: none;
+    color: #bb4c56;
+    flex-basis: 2;
+    margin-right: 50px;
+
+}
+
+.menu ul li a:hover {
+    background-color: #b41a1a;
+    color: white;
+    padding: 2px
+}
+
+.descricao {
+    background-color: #bb4c56;
+    height: 400px;
+}
+
+.descricao .text {
+    float: right;
+    line-height: 40px;
+    padding: 70px;
+    color: rgb(255, 255, 255);
+    font-size: 130%;
+}
+
+.descricao .vid video {
+    margin-left: 10%;
+    width: 470px;
+}
+
+
+.info {
+    margin-top: 5%;
+    line-height: 20px;
+}
+
+section span {
+    color: rgb(255, 0, 0);
+    font-style: italic;
+}
+
+
+.equipamento {
+    background-color: rgba(128, 128, 128, 0.397);
+    display: inline-block;
+    width: 30%;
+    margin-left: 2.5%;
+}
+
+.equipamento h3 {
+    text-align: center;
+}
+
+.equipamento img {
+    width: 100%;
+}
+
+
+.especializada {
+    background-color: rgba(128, 128, 128, 0.397);
+    display: inline-block;
+    width: 30%;
+    margin-left: 2.5%;
+}
+
+.especializada h3 {
+    text-align: center;
+}
+
+.especializada img {
+    width: 100%;
+}
+
+
+.diversos {
+    background-color: rgba(128, 128, 128, 0.397);
+    display: inline-block;
+    width: 30%;
+    margin-left: 2.5%;
+}
+
+.diversos h3 {
+    text-align: center;
+}
+
+.diversos img {
+    width: 100%;
+}
+
+
+
+.gratis {
+    color: #bb4c56;
+    text-align: center;
+    margin-top: 5%;
+    height: 200px;
+}
+
+.gratis .div1 {
+    font-size: 26px;
+    width: 30%;
+    margin-left: 15%;
+    float: left;
+}
+
+.gratis .div2 {
+    width: 30%;
+    margin-right: 15%;
+    float: right;
+}
+
+.fale {
+    color: #bb4c56;
+    width: 100%;
+    text-align: center;
+}
+
+.social {
+    margin-bottom: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #bb4c56;
+    text-align: center;
+    width: 100%;
+}
+
+.social .icone img {
+    width: 50px;
+    padding: 5px;
+}
+
+.bot {
+    background-color: black;
+    height: 200px;
+}
+
+.bot .tel {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    float: left;
+    width: 30%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.bot .tel h2 {
+    color: white;
+}
+
+.bot .tel a {
+    text-decoration: none;
+}
+
+.bot .imagem {
+    float: right;
+    width: 20%;
+    margin-left: 10%;
+    margin-top: 7%;
+}

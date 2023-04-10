@@ -22,7 +22,6 @@
         display: flex;
         flex-wrap: wrap;
         margin-bottom: -90px;
-        text-align: center;
     }
 
     .menu ul {
@@ -37,6 +36,20 @@
         line-height: 20px;
     }
 
+    .btnOrcamentoOnline{
+        margin-left: 15%;
+    }
+
+    .btnOrcamentoOnline img {
+        width: 70%;
+        margin-top: 35%;
+    }
+
+    #gif{
+        width: 25%;
+        margin-bottom: 10%;
+    }
+
     .descricao {
         height: 900px;
         display: flex;
@@ -46,7 +59,7 @@
     .descricao .fale {
         display: flex;
         align-items: center;
-        margin-top: 20%;
+        margin-top: 5%;
         margin-bottom: -60px;
         margin-left: 9%;
     }
@@ -61,34 +74,33 @@
     }
 
     .cont {
-        width: 30px;
+        width: 40px;
     }
 
     .descricao .contato .icone {
-        margin-right: 15px;
+        margin-right: 5px;
         margin-left: 6%;
         margin-top: 10%;
     }
 
     .descricao .info {
         margin-left: 10%;
-        margin-bottom: 5%;
         margin-top: -7%;
         height: 70%;
         width: 80%;
     }
 
     .descricao .mapa {
-        margin-left: 5%;
         width: 90%;
-        margin-top: -110%;
+        margin-left: 5%;
+        margin-top: 110%;
+        position: absolute;
     }
 
     .bot {
         height: 250px;
         display: flex;
         flex-direction: column;
-        margin-top: 15%;
     }
 
     .bot .tel {
@@ -107,4 +119,44 @@
         margin-left: 35%;
         width: 200px;
     }
+        
+    /*orcamentoOnline*/
+    .orcamento {
+        margin-top: 25%;
+        text-align: center;
+    }      
+
+    label{
+        display:block;
+    }
+    /*orcamentoOnline*/
+
+
+    /*agradecemos*/
+    .contatoOrcamento{
+        list-style: none;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 20%;
+    }
+
+    .contatoOrcamento .cont {
+        width: 60px;
+    }
+
+    .contatoOrcamento .icone {
+        margin-right: 15px;
+    }
+
+    .agradecemos {
+        color: #bb4c56;
+        text-align: center;
+        font-size: 80%;
+        margin-top: 30%;
+        margin-bottom: 20%;
+    }
+    /*agradecemos*/
+   
 }

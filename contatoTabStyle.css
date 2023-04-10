@@ -35,6 +35,22 @@
         line-height: 20px;
     }
 
+    .btnOrcamentoOnline{
+        margin-left: 30%;
+    }
+
+    .btnOrcamentoOnline img {
+        width: 65%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    #gif{
+        width: 25%;
+        margin-bottom: 10%;
+        margin-left: -15%;
+    }
+
     .descricao {
         height: 900px;
         display: flex;
@@ -73,6 +89,7 @@
     .descricao .mapa {
         margin-left: 13%;
         margin-top: -420px;
+        width: 80%;
     }
 
     .bot {

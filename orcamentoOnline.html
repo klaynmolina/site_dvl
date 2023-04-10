@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="smartphone,celular,conserto,computador,notebook">
+        <meta name="robots" content="index, follow">
+        <meta name="author" content="Molina">
+        
+        <link rel="stylesheet" href="contatoStyle.css">
+        <link rel="stylesheet" href="contatoSmartStyle.css">
+        <link rel="stylesheet" href="contatoTabStyle.css">
+        <link rel="icon" href="img/favicon.ico">
+        <script src="script.js" defer></script>
+        
+        <title>Orçamento Online</title>
+    </head>
+    <body>
+        <main>
+
+            <header class="topo"> 
+                
+                <div class="logo">
+                     <img id="logoTopo" src="img/logo.jpg" width="15%">
+                </div> <!--logo-->
+                  
+                  <div class="titulo">
+                      <h1>Assistência Técnica Especializada em
+                          <br> Celulares, Tablets, Notebooks e Computadores</h1>
+                  </div> <!--titulo-->
+  
+            </header> <!--topo-->
+
+            <section class="menu">
+              
+                <ul class="lista">
+                    <li><a href="index.html">Página Inicial</a></li>
+                    <li><a href="../DVLComputadores/main.html">Dvl Computadores & Notebooks</a></li>
+                    <li><a href="DVLGrafica/main.html">Dvl Gráfica</a></li>
+                </ul>
+
+            </section> <!--menu-->
+
+            <section class="orcamento">
+                <form action="https://api.staticforms.xyz/submit" method="POST">
+                    <input type="hidden" name="accessKey" value="7f8b221d-3370-4101-bec1-73db78bd258e">
+                    <input type="hidden" name="redirectTo" value="https://www.dvlcell.com.br/agradecemos.html">
+                    <div>
+                        <label for="nome">Seu Nome:</label>
+                        <input type="text" required maxlength="20" name="$Nome do Cliente:"/>
+                    </div>
+                    <div>
+                        <label for="telefone">Telefone Para Contato:</label>
+                        <input type="number" required maxlength="12" name="$Telefone Para Contato:"/>
+                    </div>
+                    <div>
+                        <label for="marca">Marca do Aparelho:</label>
+                        <input type="text" required maxlength="20" placeholder="Exemplo: Samsung" name="$Marca do Aparelho com Defeito:"/>
+                    </div>
+                    <div>
+                        <label for="modelo">Modelo do Aparelho :</label>
+                        <input type="text" required maxlength="20" placeholder="Exemplo: Galaxy A10" name="$Modelo do Aparelho com Defeito:" />
+                    </div>
+                    <div>
+                        <label for="defeito">Descrição do Defeito:</label>
+                        <textarea required maxlength="200" placeholder="Exemplo: Tela Quebrada" name="$Descrição do Defeito:"></textarea>
+                    </div>
+                    <div id="mailto">
+                        <button>Solicitar Orçamento</button>
+                    </div>
+                </form>
+                
+            </section>
+            
+            <footer class="bot">
+                
+                <div class="tel">
+                    <address >Ligue para: <a href="tel:975595573"><h2>21975595573</h2></a></address>
+                </div> <!--tel-->
+                
+                <div class="imagem">
+                    <a  href="main.html"><img src="img/dvlcell.png" width="50%"></a>
+                </div> <!--imagem-->
+
+            </footer> <!--bot-->
+
+        </main>
+    </body>
+</html>

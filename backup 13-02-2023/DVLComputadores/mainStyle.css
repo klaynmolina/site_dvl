@@ -10,7 +10,7 @@ main {
 
 .topo {
     height: 400px;
-    background-image: url(img/background.png);
+    background-image: url(img/note_pc.png);
     background-position: 60%;
     display: flex;
 }
@@ -32,8 +32,8 @@ main {
 
 .menu {
     list-style: none;
-    margin-top: 5px;
-    padding: 10px;
+    margin-top: 1px;
+    padding: 5px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -76,7 +76,7 @@ main {
 
 .descricao .vid video {
     margin-left: 10%;
-    width: 420px;
+    width: 470px;
 }
 
 

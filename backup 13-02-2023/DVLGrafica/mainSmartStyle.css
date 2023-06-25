@@ -1,0 +1,142 @@
+@media (max-width: 700px) {
+    .topo {
+        background-image: none;
+        height: 100px;
+    }
+
+    .logo .logotop {
+        width: 30%;
+        margin-right: 35%;
+    }
+
+    .titulo {
+        font-size: 9px;
+        margin-top: 30%;
+        margin-left: 7%;
+    }
+
+    .menu {
+        margin-top: 10%;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .menu ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column;
+
+    }
+
+    .menu ul li a {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .descricao {
+        background-color: #bb4c56;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+
+    }
+
+    .descricao {
+        height: 700px;
+    }
+
+    .descricao .text {
+        line-height: 40px;
+        color: rgb(255, 255, 255);
+        height: 50px;
+        width: 70%;
+        padding-top: 0%;
+        text-align: center;
+        margin-left: 15%;
+        margin-bottom: 80%;
+    }
+
+    .descricao .vid .graf {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .negocio {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .voce {
+        margin-top: 5%;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .voce img {
+        height: 300px;
+    }
+
+    .graficos {
+        margin-top: 5%;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .graficos img {
+        height: 270px;
+    }
+
+
+    .gratis {
+        height: 500px;
+    }
+
+    .gratis .div1 {
+        width: 50%;
+        margin-left: 20%;
+    }
+
+    .gratis .div2 {
+        margin-left: 2%;
+        width: 80%;
+    }
+
+    .social .icone img {
+        width: 45px;
+        padding: 0px 20px;
+    }
+
+    #messenger {
+        margin-top: 40px;
+    }
+
+    #facebook {
+        margin-top: 40px;
+    }
+
+    .bot {
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bot .tel {
+        width: 80%;
+    }
+
+    .bot .tel h2 {
+        color: white;
+    }
+
+    .bot .tel a {
+        text-decoration: none;
+    }
+
+    .bot .imagem {
+        margin-left: 35%;
+        width: 200px;
+    }
+}

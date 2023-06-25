@@ -1,0 +1,155 @@
+@media (min-width:700px) and (max-width:1020px) {
+    .topo {
+        background-image: none;
+        height: 100px;
+    }
+
+    .logo .logotop {
+        width: 25%;
+        padding: 2% 36%;
+    }
+
+    .titulo {
+        font-size: 90%;
+        margin-top: 27%;
+        margin-left: 17%;
+        text-align: center;
+    }
+
+    .menu {
+        margin-top: 20%;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .menu ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column;
+
+    }
+
+    .menu ul li a {
+        font-size: 25px;
+        line-height: 20px;
+    }
+
+    .descricao {
+        background-color: #bb4c56;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+
+    .descricao .text {
+        line-height: 45px;
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+        height: 50px;
+        width: 70%;
+        padding-top: 0%;
+        text-align: center;
+        margin-left: 15%;
+        margin-bottom: 55%;
+    }
+
+    .descricao .vid .graf {
+        height: 470px;
+        width: 600px;
+        align-self: center;
+        margin-left: 15%;
+    }
+
+    .info {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .negocio {
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    .negocio img {
+        height: 400px;
+    }
+
+    .voce {
+        margin-top: 5%;
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    .voce img {
+        height: 400px;
+    }
+
+    .graficos {
+        margin-top: 5%;
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    .graficos img {
+        height: 400px;
+    }
+
+
+    .gratis {
+        height: 450px;
+    }
+
+    .gratis .div1 {
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    .gratis .div2 {
+        margin-left: 2%;
+        width: 70%;
+    }
+
+    .social .icone img {
+        width: 80px;
+        padding: 0px 20px;
+    }
+
+    .fale {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    #messenger {
+        margin-top: 40px;
+    }
+
+    #facebook {
+        margin-top: 40px;
+    }
+
+    .bot {
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bot .tel {
+        width: 80%;
+    }
+
+    .bot .tel h2 {
+        color: white;
+    }
+
+    .bot .tel a {
+        text-decoration: none;
+    }
+
+    .bot .imagem {
+        margin-left: 35%;
+        width: 400px;
+    }
+}

@@ -1,0 +1,148 @@
+html {
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.topo {
+    height: 400px;
+    background-image: url(img/back.png);
+    background-position: 100%;
+    display: flex;
+}
+
+#logo {
+    text-align: right;
+    margin-top: 2%;
+    margin-right: 2%;
+    width: 100%;
+}
+
+.menu {
+    list-style: none;
+    margin-top: 1px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.menu .lista li {
+    display: inline-block;
+    margin-top: 0%;
+
+}
+
+.menu ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #bb4c56;
+    flex-basis: 2;
+    margin-right: 50px;
+
+}
+
+.menu ul li a:hover {
+    background-color: #b41a1a;
+    color: white;
+    padding: 2px
+}
+
+
+.descricao {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.descricao .fale {
+    color: #bb4c56;
+    text-align: center;
+    margin-top: 1%;
+    font-size: 80%;
+}
+
+.descricao .contato {
+    color: #bb4c56;
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 30%;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.contato .icone .cont {
+    width: 80px;
+    margin-top: 5%;
+}
+
+.descricao .contato .whatsapp {
+    margin-right: 2%;
+}
+
+.descricao .contato .messenger {
+    margin-top: 4%;
+}
+
+.descricao .contato .facebook {
+    margin-right: 10%;
+    margin-top: 4%;
+}
+
+.descricao .contato .telefone {
+    margin-top: 6%;
+    margin-right: 3%;
+}
+
+.descricao .info {
+    font-size: 15px;
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 40%;
+}
+
+.descricao .mapa .mp {
+    width: 500px;
+    height: 400px;
+    margin-left: -1%;
+    margin-top: 5%;
+}
+
+
+.bot {
+    background-color: black;
+    height: 200px;
+    display: flex;
+}
+
+.bot .tel {
+    font-size: 15px;
+    color: white;
+    width: 30%;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.bot .tel h2 {
+    color: white;
+}
+
+.bot .tel a {
+    text-decoration: none;
+}
+
+.bot .imagem {
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 7%;
+}

@@ -1,0 +1,131 @@
+@media (max-width: 700px) {
+    .topo {
+        background-image: none;
+        height: 100px;
+    }
+
+    #logoTopo {
+        width: 50%;
+        margin: 5%;
+        margin-right: 25%;
+    }
+
+    .titulo {
+        font-size: 9px;
+        margin-top: 30%;
+        margin-right: 5%;
+        text-align: center;
+    }
+
+    .menu {
+        margin-top: 20%;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .menu ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column;
+
+    }
+
+    .menu ul li a {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .descricao {
+        background-color: #bb4c56;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+    .descricao .text {
+        line-height: 30px;
+        color: rgb(255, 255, 255);
+        font-size: 96%;
+        height: 100px;
+        width: 70%;
+        padding: 15%;
+        padding-top: 0%;
+        padding-bottom: 22%;
+        text-align: center;
+    }
+
+    .descricao .vid video {
+        height: 370px;
+        width: 200px;
+        align-self: center;
+        margin-left: 20%;
+
+    }
+
+    .info .equipamento {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .info .especializada {
+        margin-top: 5%;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .info .diversos {
+        margin-top: 5%;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .gratis {
+        height: 500px;
+    }
+
+    .gratis .div1 {
+        width: 50%;
+        margin-left: 20%;
+    }
+
+    .gratis .div2 {
+        margin-left: 2%;
+        width: 80%;
+    }
+
+    .social .icone img {
+        width: 50px;
+        padding: 5px;
+    }
+
+    .fale {
+        margin-left: 1%;
+        text-align: center;
+    }
+
+    .bot {
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bot .tel {
+        width: 80%;
+    }
+
+    .bot .tel h2 {
+        color: white;
+    }
+
+    .bot .tel a {
+        text-decoration: none;
+    }
+
+    .bot .imagem {
+        margin-left: 35%;
+        width: 200px;
+    }
+}
